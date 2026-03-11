@@ -1,3 +1,19 @@
+.circle-logo {
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto 16px auto;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+}
+.circle-logo {
+    width: 36px;
+    height: 36px;
+    display: block;
+    margin: 0 auto 12px auto;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+}
 body {
     background: #8e44ad;
     margin: 0;
@@ -23,7 +39,7 @@ h1 {
     background: #333;
     color: #fff;
     border: none;
-    border-radius: 4px;
+    border-radius: 24px;
     cursor: pointer;
     transition: background 0.2s;
 }
